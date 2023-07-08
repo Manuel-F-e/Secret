@@ -4,11 +4,12 @@ button:hover {
 
 h1 {
     color: forestgreen;
+    text-align: center;
 }
 
 h3 {
     color: aliceblue;
-    
+    text-align: center;
 }
 
 .modo_sexo  {
@@ -18,12 +19,24 @@ h3 {
     width: 100%;
     background-color: rgb(119, 15, 41);
     z-index: 1000;
+    
 }
+
 
 #btn_si{
     background-color: black;
     border-color: rgb(180, 179, 100);
     color: whitesmoke;
+    font-size: xx-large;
+    padding: 40px;
+    text-align: center;
+    border-radius: 1000px;
+}
+
+#btn_alert{
+    background-color: rgb(111, 207, 21);
+    border-color: rgb(72, 156, 104);
+    color: rgb(230, 221, 221);
     font-size: xx-large;
     padding: 40px;
     text-align: center;
